@@ -1,7 +1,14 @@
+// module.exports = {
+//   siteMetadata: {
+//     siteUrl: "https://www.yourdomain.tld",
+//     title: "gatsby-1",
+//   },
+//   plugins: [],
+// };
+
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "gatsby-1",
+    title: "My First Gatsby Site"
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"]
 };
