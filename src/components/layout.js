@@ -28,28 +28,31 @@ const Layout = ({ pageTitle, children }) => {
       <title>
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
+
       <header className={siteTitle}>
         {data.site.siteMetadata.title}
       </header>
+
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-              Home
+              HOME
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
+            <Link to="/aboutus" className={navLinkText}>
+              ABOUT
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/blog" className={navLinkText}>
-              Blog
+              BLOG
             </Link>
           </li>
         </ul>
       </nav>
+
       <main>
         <h1 className={heading}>
           {pageTitle}

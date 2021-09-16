@@ -8,7 +8,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "MY first Dog page with Gatsby"
+    title: "Created width Gatsby"
   },
   plugins: [
     "gatsby-plugin-image",
@@ -19,6 +19,7 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/blog`
       }
-    }
+    },
+    "gatsby-plugin-mdx"
   ]
 };
